@@ -1,0 +1,9 @@
+numbers = [2, 7, 11, 15]
+target = 9
+num = 0
+for i in range(len(numbers)):
+    for j in range(i + 1,len(numbers)):
+
+       sum = numbers [i] + numbers[j]
+       if sum == target:
+         print (numbers[i],numbers[j])
