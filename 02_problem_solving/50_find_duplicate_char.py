@@ -8,4 +8,3 @@ for char in text :
         break 
     else:
          seen.add(char)
-    

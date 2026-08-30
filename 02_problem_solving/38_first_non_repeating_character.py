@@ -13,4 +13,4 @@ print(frequency)
 for char in text :
     if frequency[char] == 1:
      print(char)
-    break
+     break

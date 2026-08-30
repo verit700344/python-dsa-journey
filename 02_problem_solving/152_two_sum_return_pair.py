@@ -8,7 +8,7 @@ while left < right :
     total = numbers[left] + numbers[right]
     
     if total == target :
-        print(left, numbers[right])
+        print(numbers[left], numbers[right])
         break
 
     
