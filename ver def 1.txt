@@ -1,0 +1,12 @@
+def countChar(data, coder):
+    return data.count(coder)
+
+def main():
+    data = str(input())
+    coder = str(input())
+
+    result = countChar(data, coder)
+    print(result)
+
+if __name__ == "__main__":
+    main()
