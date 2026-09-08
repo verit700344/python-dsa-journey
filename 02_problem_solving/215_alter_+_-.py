@@ -13,3 +13,6 @@ for number in numbers:
 for i in range(min(len(positive), len(negative))):
     alternate_numbers.append(positive[i])
     alternate_numbers.append(negative[i])
+    if len(positive) > len(negative):
+        alternate_numbers.extend(positive[len(negative):])
+print("Alternate numbers:", alternate_numbers)
