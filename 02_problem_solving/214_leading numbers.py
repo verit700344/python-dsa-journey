@@ -1,7 +1,5 @@
 numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
-leading_number = numbers[0]
-left = 0
-right = len(numbers) - 1
+
 leading_number = numbers[-1]
 leaders = [leading_number]
 
