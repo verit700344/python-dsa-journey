@@ -7,15 +7,16 @@ head = None
 tail = None
 for number in numbers:
     new_node = Node(number)
-    if tail is None:
-        tail = new_node
+    if head is None:
         head = new_node
+        tail = new_node
     else:
-       head.next = new_node
-       head = new_node
+       tail.next = new_node
+       tail = new_node
 
 # to insert at new node head
 new_node = Node(int(input("Enter a number to insert at the head: ")))
 
-new_node.next = tail
-tail = new_node
+new_node.next = head
+
+head = new_node
