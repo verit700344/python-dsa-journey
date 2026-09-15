@@ -31,4 +31,3 @@ elif head is not None:
             current.next = current.next.next
             break
         current = current.next
-#del problem6
