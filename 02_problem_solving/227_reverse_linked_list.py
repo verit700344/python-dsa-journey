@@ -17,12 +17,15 @@ for number in numbers:
        tail = new_node
 previous = None
 current = head
+old_head = head
 while current.next is not None:
     next_node = current.next
     current.next = previous
     previous = current
     current = next_node
-    old_head = head
-tail = old_head
+   
+
 head = previous
+
+tail = old_head
 
