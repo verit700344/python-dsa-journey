@@ -39,3 +39,10 @@ while current is not None and current.next is not None:
     else:
         current = current.next
 print("Linked list after removing duplicates:")
+current = head
+
+while current is not None:
+    print(current.data, end=" → ")
+    current = current.next
+
+print("None")
